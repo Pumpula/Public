@@ -70,7 +70,3 @@ Outputs:
   ServiceURL:
     Description: URL of the running service
     Value: !Sub "http://${Service.Endpoint}:8080"
-
-# This template creates an ECS cluster, a task definition for the container, a service that runs the task, and the necessary networking resources. It also exposes the app on port 8080 using an Elastic Load Balancer.
-
-# To use this template, you would need to replace the my-docker-repo/my-app:latest image with your own Docker image, and update the VPC and subnet settings as needed for your specific environment.
